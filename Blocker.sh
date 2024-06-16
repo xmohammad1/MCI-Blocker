@@ -257,6 +257,7 @@ while true; do
     read -p "Enter choice [1, 2 or 9]: " choice
     case $choice in
         1)
+            clear
             install_persistent
             block_ipv4
             block_ipv6
@@ -265,6 +266,7 @@ while true; do
             read -p "Press Enter continue"
             ;;
         2)
+            clear
             unblock_ipv4
             unblock_ipv6
             save_rules
