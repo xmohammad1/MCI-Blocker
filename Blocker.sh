@@ -263,6 +263,7 @@ while true; do
             block_ipv6
             save_rules
             echo "MCI Blockder Installed successfully."
+            echo ""
             read -p "Press Enter continue"
             ;;
         2)
@@ -271,6 +272,7 @@ while true; do
             unblock_ipv6
             save_rules
             echo "Removed MCI Blocker."
+            echo ""
             read -p "Press Enter continue"
             ;;
         9)
